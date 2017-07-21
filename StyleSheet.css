@@ -36,12 +36,7 @@ h1 {
 }
 h3 {
     margin-bottom:10px;
-}
-
-
-        
-
-
+}  
 #TwoHouseImg{
     
 }
@@ -57,7 +52,8 @@ div.picWithText {
     color: white;
    position: absolute;
     top: 25%;
-    left: 20%; 
+    left: 20%;
+    font-family: 'Indie Flower', cursive; 
 }
 
 #textTwo {
@@ -69,4 +65,21 @@ div.picWithText {
 
 /*LOCATIONS*/
 
+#locationOnePic {
+    float: right;
+    margin-top:40px;
+}
+#buttonOne {    
+    border-color: grey;
+}
 
+#locationTwo {
+    color: white;
+    background-color: grey;
+}
+#buttonTwo {
+    color: black;
+}
+#locationTwoPic {
+    background-color: grey;
+}
