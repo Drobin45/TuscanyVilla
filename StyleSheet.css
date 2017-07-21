@@ -1,2 +1,14 @@
 ﻿body {
 }
+
+/*NAVBAR*/
+
+.nav.navbar-nav {
+    display: inline;
+    float: right;    
+    background-color: grey;
+    text-decoration: none;
+}
+a{
+color: white;
+}
