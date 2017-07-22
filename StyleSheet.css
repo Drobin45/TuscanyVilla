@@ -83,3 +83,6 @@ div.picWithText {
 #locationTwoPic {
     background-color: grey;
 }
+img.img-responsive {
+    float:right;
+}
