@@ -37,30 +37,33 @@ h1 {
 h3 {
     margin-bottom:10px;
 }  
-#TwoHouseImg{
+#TwoHouseImg{    
     
 }
-#mapImg{
-    
+
+img#mapImg{
+    position: relative;
+    top: 10%;
+
 }
 
 div.picWithText {
-    position: relative;    
+        position: relative;
+        top:20%;
+        left: 20%;        
 }
 
-#textOne {
-    color: white;
-   position: absolute;
+#textOne {  
+   position: relative;
     top: 25%;
-    left: 20%;
+    left: 50%;
     font-family: 'Indie Flower', cursive; 
 }
 
 #textTwo {
-    color: white;
-   position: absolute;
+    position: relative;
     top: 35%;
-    left: 20%;    
+    left: 50%;    
 }
 
 /*LOCATIONS*/
@@ -85,4 +88,37 @@ div.picWithText {
 }
 img.img-responsive {
     float:right;
+}
+#locationThree {
+    background-color: white;
+    margin-bottom: 60px;
+}
+#locationThreePic {
+     background-color: white;
+}
+
+/*AMMENITIES*/
+
+div.ammenities {
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+div.ammenitiesOne.row.container {
+    margin-left: 45px;
+}
+
+div#ammenitiesOneText.form {
+    align-content:center;
+}
+img#ammenitiesPicOne {
+    position: relative;
+}
+div.ammenitiesOne h2 {
+    position: absolute;
+    top:35%;
+    right: 35%;
+    color: white; 
+    background-color: grey;     
 }
