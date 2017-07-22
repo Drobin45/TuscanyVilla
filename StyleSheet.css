@@ -109,16 +109,62 @@ div.ammenitiesOne.row.container {
     margin-left: 45px;
 }
 
-div#ammenitiesOneText.form {
+p#ammenitiesOneText {
     align-content:center;
 }
+
+div#buttonThree{
+    align-content:center;
+}
+
 img#ammenitiesPicOne {
     position: relative;
 }
 div.ammenitiesOne h2 {
     position: absolute;
     top:35%;
-    right: 35%;
+    right: 30%;
     color: white; 
     background-color: grey;     
 }
+p#ammenitiesTwoText {
+    text-align: center;
+}
+
+div#ammenitiesPicThree h2 {
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    color: white;
+    background-color: grey;
+}
+
+p#ammenitiesThreeText {
+    text-align: center;
+}
+
+/*div#ammenitiesPicFour.img-responsive h2 {
+    position: absolute;
+    top:35%;
+    right: 30%;
+    color: white; 
+    background-color: grey;     
+} */
+
+h2#enjoy {
+    position: absolute;
+    top:35%;
+    right: 20%;
+    color: white; 
+    background-color: grey;
+}
+
+h2#private {
+    position: absolute;
+    top:35%;
+    right: 20%;
+    color: white; 
+    background-color: grey;
+}
+
+
