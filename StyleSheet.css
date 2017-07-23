@@ -93,8 +93,9 @@ h3#somePlaces {
     background-color: #484A4C;
 }
 
-#buttonTwo {
+div#buttonTwo {    /*Unable to discover what to call this to have it obey instruction. A simple margin-bottom increase would solve the blank white box in my website*/
     color: black;
+    margin-bottom: 40px;
 }
 
 #locationTwoPic {
@@ -114,7 +115,12 @@ img.img-responsive {
     background-color: white;
 }
 
-/*AMMENITIES*/
+div#buttonThree { /*Unable to discover what to call this to have it obey instruction. This may be a mechanism of the button class that I don't understand... Need to fix this to fix the odd grey box below this button.*/
+    margin-bottom: 60px;
+}
+
+/*AMMENITIES*/ /*Using position: absolute was a huge mistake for this section. I discovered how to use position: relative late in the project and would redue this section using that tool
+    if I still had the time to do that. Moving a single object, or changing a single objects position: status creates a hideous, blocky, mockery of abstract art. Not enough time to fix.*/
 
 div.ammenities {
     background-color: #484A4C;
@@ -132,10 +138,6 @@ p#ammenitiesOneText {
 
 div#buttonThree {
     align-content: center;
-}
-
-img#ammenitiesPicOne {
-    position: relative;
 }
 
 div.ammenitiesOne h2 {
@@ -179,7 +181,6 @@ h2#private {
 }
 
 /*CAROUSEL*/
-
 
 h1#reviews {
     height: 50px;
